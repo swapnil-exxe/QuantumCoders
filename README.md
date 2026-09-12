@@ -1,13 +1,16 @@
 # QuantumCoders
 
-A Python repository providing clean NumPy implementations of fundamental quantum computing logic gates and state vector transformations.
+NumPy implementation of fundamental quantum gates, state vector validation, and Quantum Fourier Transform (QFT).
 
 ## Included Modules
 
-- `quantum_gates.py`: Matrix implementations for Pauli-X, Pauli-Y, Pauli-Z, Hadamard, and CNOT quantum gates with unit test suite.
+- `quantum_gates.py`: Single & multi-qubit gates (Pauli-X/Y/Z, Hadamard, CNOT).
+- `quantum_circuit.py`: State vector normalization, probability norm validation, and QFT unitary transformation builder.
 
-## Execution & Testing
+## Running Tests
+
+Execute PyTest test suite:
 
 ```bash
-python3 quantum_gates.py
+pytest
 ```
